@@ -19,7 +19,7 @@ conda install -c conda-forge ase
 To run the program optimally, ensure get_mon.py is in the folder with the cif file:
 ```
 conda activate csdpy
-python3 get_mon.py
+python3 get_all_mon.py
 ```
 
 Please enjoy and report any bugs found. I cannot gauruntee it will work with future version of python, ase or the csd api! :) 
