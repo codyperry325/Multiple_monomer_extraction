@@ -14,5 +14,5 @@ if __name__ == "__main__":
             writer = io.MoleculeWriter("temp.cif")
             writer.write(mol)
             monomer = read("temp.cif")
-            write(f"monomer{i}.xyz",monomer)
+            write(f"monomer_{i}.xyz",monomer)
             os.remove("temp.cif")
