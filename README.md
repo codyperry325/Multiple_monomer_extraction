@@ -16,6 +16,8 @@ conda install --channel=https://conda.ccdc.cam.ac.uk csd-python-api
 conda install -c conda-forge ase
 ```
 
+You must have a CCDC license to use this code, if you have already installed the library it should not be a problem. 
+
 To run the program optimally, ensure get_all_mon.py is in the folder with the cif file:
 ```
 conda activate csdpy
